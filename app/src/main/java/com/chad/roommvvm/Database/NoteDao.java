@@ -14,7 +14,7 @@ import java.util.List;
 @Dao
 public interface NoteDao {
 
-    @Query("SELECT * FROM " + Constants.TABLE_NAME + " ORDER BY priority")
+    @Query("SELECT * FROM " + Constants.TABLE_NAME + " ORDER BY priority DESC")
     List<Note> getAllNotes();
 
     @Insert
@@ -26,7 +26,7 @@ public interface NoteDao {
     @Delete
     void deleteNote(Note note);
 
-    @Query("SELECT " + Constants.TABLE_NAME)
+    @Query("DELETE FROM " + Constants.TABLE_NAME)
     void deleteAllNotes();
 
 }
