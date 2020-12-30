@@ -1,8 +1,10 @@
-package com.chad.roommvvm;
+package com.chad.roommvvm.UI;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.chad.roommvvm.R;
 
 public class MainActivity extends AppCompatActivity {
 

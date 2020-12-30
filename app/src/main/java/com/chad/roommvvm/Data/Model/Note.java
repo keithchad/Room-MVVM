@@ -1,10 +1,10 @@
-package com.chad.roommvvm.Model;
+package com.chad.roommvvm.Data.Model;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-import com.chad.roommvvm.Constants.Constants;
+import com.chad.roommvvm.Data.Constants.Constants;
 
 @Entity(tableName = Constants.TABLE_NAME)
 public class Note {

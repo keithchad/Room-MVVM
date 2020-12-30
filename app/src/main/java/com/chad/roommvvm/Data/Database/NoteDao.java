@@ -1,13 +1,14 @@
-package com.chad.roommvvm.Database;
+package com.chad.roommvvm.Data.Database;
 
+import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import com.chad.roommvvm.Constants.Constants;
-import com.chad.roommvvm.Model.Note;
+import com.chad.roommvvm.Data.Constants.Constants;
+import com.chad.roommvvm.Data.Model.Note;
 
 import java.util.List;
 
@@ -15,7 +16,7 @@ import java.util.List;
 public interface NoteDao {
 
     @Query("SELECT * FROM " + Constants.TABLE_NAME + " ORDER BY priority DESC")
-    List<Note> getAllNotes();
+    LiveData<List<Note>> getAllNotes();
 
     @Insert
     void insertNote(Note note);

@@ -1,4 +1,4 @@
-package com.chad.roommvvm.Constants;
+package com.chad.roommvvm.Data.Constants;
 
 public class Constants {
 
