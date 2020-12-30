@@ -13,8 +13,8 @@ import java.util.List;
 
 public class NoteRepository {
 
-    private NoteDao noteDao;
-    private LiveData<List<Note>> allNotes;
+    private final NoteDao noteDao;
+    private final LiveData<List<Note>> allNotes;
 
     public NoteRepository (Application application) {
         NoteDatabase noteDatabase = NoteDatabase.getInstance(application);
@@ -33,6 +33,7 @@ public class NoteRepository {
     public void deleteNote(Note note) {
         new DeleteNoteTask(noteDao).execute(note);
     }
+
     public void deleteAllNotes() {
         new DeleteAllNotesTask(noteDao).execute();
     }

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Room (MVVM)</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="ten">10</string>
+    <string name="add_note">ADD NOTE</string>
+    <string name="note_title">Note Title</string>
+    <string name="note_description">Note Description</string>
+    <string name="add">ADD</string>
 </resources>
