@@ -4,7 +4,7 @@ Writing a Note App App using [Android Architecture Components](https://developer
 
 ## Screenshots
 
-
+![onboarding2](https://user-images.githubusercontent.com/63049827/103522618-b213e100-4e8b-11eb-8d4c-f43e994b2a20.png)
 
 ## Tech-stack
 
