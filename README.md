@@ -15,9 +15,10 @@ Writing a Note App App using [Android Architecture Components](https://developer
     * MVVM - Model View View Model
 
 ## Dependencies
-
-
-
+  * [Material Design](https://material.io/design) - Material is an adaptable system of guidelines, components, and tools that support the best practices of user interface design
+  * [Room](https://developer.android.com/topic/libraries/architecture/room) - a persistence library provides an abstraction layer over SQLite.
+  * [Lifecycle](https://developer.android.com/topic/libraries/architecture/lifecycle) - perform action when lifecycle state changes.
+  
 ## License
 ```
 MIT License
