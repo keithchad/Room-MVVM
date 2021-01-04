@@ -27,7 +27,7 @@ Writing a Note App App using [Android Architecture Components](https://developer
 ```
 MIT License
 
-Copyright (c) 2020 Keith Chad
+Copyright (c) 2021 Keith Chad
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
 associated documentation files (the "Software"), to deal in the Software without restriction, including
