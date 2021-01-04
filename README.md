@@ -2,7 +2,9 @@
 
 Writing a Note App App using [Android Architecture Components](https://developer.android.com/topic/libraries/architecture/), in 100% Java, using Material Design Components.
 
-##Screenshots
+## Screenshots
+
+
 
 ## Tech-stack
 
